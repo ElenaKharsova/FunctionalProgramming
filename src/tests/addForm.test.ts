@@ -1,4 +1,4 @@
-import { addForm } from "./addForm";
+import { addForm } from "../addForm";
 
 describe("addForm", () => {
   it("creates basic markup", () => {

@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test": "jest --coverage",
-    "lint": "eslint . --ext .ts",
+    "lint": "prettier --check . && eslint . --ext .js .ts",
     "lint:fix": "eslint . --fix",
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
